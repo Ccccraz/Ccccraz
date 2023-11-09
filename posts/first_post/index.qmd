@@ -7,3 +7,5 @@ image: "https://i.imgur.com/RRUHF6H.jpg"
 ---
 
 This is a post with executable code.
+
+![A test for github action](https://i.imgur.com/RRUHF6H.jpg)
