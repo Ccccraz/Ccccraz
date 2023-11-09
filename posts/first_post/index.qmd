@@ -1,13 +1,20 @@
 ---
 title: "Post With Code"
-author: "Harlow Malloc"
-date: "2023-11-09"
-categories: [news, code, analysis]
+author: "HuYang"
+date: today
+categories: [test]
 image: "https://i.imgur.com/RRUHF6H.jpg"
 ---
 
-This [@fig-main] is a [@fig-a] post with executable[@fig-b] code.
+## Introduction
 
+This post is just for test some tech.
+
+## Cross_ref
+
+main figure is @fig-main, first sub_figure is @fig-a, last sub_figure is @fig-b
+
+## Sub figure
 :::{#fig-main layout-ncol="2" layout-valign="bottom"}
 
 ![A test for cross-ref](https://i.imgur.com/RRUHF6H.jpg){#fig-a}
