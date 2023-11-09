@@ -6,6 +6,12 @@ categories: [news, code, analysis]
 image: "https://i.imgur.com/RRUHF6H.jpg"
 ---
 
-This is a post with executable code.
+This [@fig-main] is a [@fig-a] post with executable[@fig-b] code.
 
-![A test for github action](https://i.imgur.com/RRUHF6H.jpg)
+:::{#fig-main layout-ncol="2"}
+![A test for cross-ref](https://i.imgur.com/RRUHF6H.jpg){#fig-a}
+
+![A test for cross-ref](https://i.imgur.com/S7d1TjU.jpg){#fig-b}
+
+A test for cross-ref
+:::
