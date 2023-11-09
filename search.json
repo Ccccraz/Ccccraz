@@ -4,14 +4,35 @@
     "href": "posts/first_post/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This Figure 1 is a Figure 1 (a) post with executableFigure 1 (b) code.\n\n\n\n\n\n\n\n(a) A test for cross-ref\n\n\n\n\n\n\n\n(b) A test for cross-ref\n\n\n\n\nFigure 1: A test for cross-ref{}"
+    "text": "This post is just for test some tech."
+  },
+  {
+    "objectID": "posts/first_post/index.html#introduction",
+    "href": "posts/first_post/index.html#introduction",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This post is just for test some tech."
+  },
+  {
+    "objectID": "posts/first_post/index.html#cross_ref",
+    "href": "posts/first_post/index.html#cross_ref",
+    "title": "Post With Code",
+    "section": "Cross_ref",
+    "text": "Cross_ref\nmain figure is Figure 1, first sub_figure is Figure 1 (a), last sub_figure is Figure 1 (b)"
+  },
+  {
+    "objectID": "posts/first_post/index.html#sub-figure",
+    "href": "posts/first_post/index.html#sub-figure",
+    "title": "Post With Code",
+    "section": "Sub figure",
+    "text": "Sub figure\n\n\n\n\n\n\n\n(a) A test for cross-ref\n\n\n\n\n\n\n\n(b) A test for cross-ref\n\n\n\n\nFigure 1: A test for cross-ref{}"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "不断变强的ccccr",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\ntest\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nHuYang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
