@@ -1,7 +1,6 @@
 ---
 title: "Post With Code"
 author: "HuYang"
-date: today
 categories: [test]
 image: "https://i.imgur.com/RRUHF6H.jpg"
 ---
