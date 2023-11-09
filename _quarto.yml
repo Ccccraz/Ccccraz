@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  freeze: auto
+
 website:
   title: "Home"
   navbar:
@@ -15,6 +18,3 @@ format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
