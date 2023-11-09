@@ -8,10 +8,11 @@ image: "https://i.imgur.com/RRUHF6H.jpg"
 
 This [@fig-main] is a [@fig-a] post with executable[@fig-b] code.
 
-:::{#fig-main layout-ncol="2"}
+:::{#fig-main layout-ncol="2" layout-valign="bottom"}
+
 ![A test for cross-ref](https://i.imgur.com/RRUHF6H.jpg){#fig-a}
 
 ![A test for cross-ref](https://i.imgur.com/S7d1TjU.jpg){#fig-b}
 
-A test for cross-ref
+A test for cross-ref{}
 :::
