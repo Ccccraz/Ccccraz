@@ -148,11 +148,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
-<div class="quarto-figure quarto-figure-center">
+<p>This <a href="#fig-main">Figure&nbsp;1</a> is a <a href="#fig-a">Figure&nbsp;1 (a)</a> post with executable<a href="#fig-b">Figure&nbsp;1 (b)</a> code.</p>
+<div id="fig-main" class="quarto-layout-panel">
 <figure class="figure">
-<p><img src="https://i.imgur.com/RRUHF6H.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">A test for github action</figcaption>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-a" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://i.imgur.com/RRUHF6H.jpg" class="img-fluid figure-img" data-ref-parent="fig-main"></p>
+<figcaption class="figure-caption">(a) A test for cross-ref</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-b" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://i.imgur.com/S7d1TjU.jpg" class="img-fluid figure-img" data-ref-parent="fig-main"></p>
+<figcaption class="figure-caption">(b) A test for cross-ref</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A test for cross-ref</figcaption><p></p>
 </figure>
 </div>
 
