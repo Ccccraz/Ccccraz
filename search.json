@@ -4,7 +4,7 @@
     "href": "posts/first_post/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This Figure 1 is a Figure 1 (a) post with executableFigure 1 (b) code.\n\n\n\n\n\n\n\n(a) A test for cross-ref\n\n\n\n\n\n\n\n(b) A test for cross-ref\n\n\n\n\nFigure 1: A test for cross-ref"
+    "text": "This Figure 1 is a Figure 1 (a) post with executableFigure 1 (b) code.\n\n\n\n\n\n\n\n(a) A test for cross-ref\n\n\n\n\n\n\n\n(b) A test for cross-ref\n\n\n\n\nFigure 1: A test for cross-ref{}"
   },
   {
     "objectID": "index.html",
