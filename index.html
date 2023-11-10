@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -178,6 +178,12 @@ ul.task-list li input[type="checkbox"] {
          <option value="listing-title" data-direction="asc">
           Title
         </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
          <option value="listing-author" data-direction="asc">
           Author
         </option>
@@ -189,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="test" data-listing-file-modified-sort="1699582652076" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="test" data-listing-date-sort="1699574400000" data-listing-file-modified-sort="1699583501277" data-listing-date-modified-sort="1699574400000" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./posts/first_post/index.html"> <img src="https://i.imgur.com/RRUHF6H.jpg" class="thumbnail-image"> </a></p>
 </div>
@@ -215,6 +221,9 @@ This post is just for test some tech.
 </div>
 <div class="metadata">
 <a href="./posts/first_post/index.html">
+<div class="listing-date">
+Nov 10, 2023
+</div>
 <div class="listing-author">
 HuYang
 </div>
